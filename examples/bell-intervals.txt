@@ -1,0 +1,6 @@
+A paper strip records five bell intervals of 2, 3, 3, 4 and 8 beats.
+Reading the sorted strip puts the middle interval in the third position.
+The median is 3 beats because two observations sit on either side of that position.
+Lengthening only the last interval from 8 to 18 leaves the median at 3.
+The total, however, rises from 20 beats to 30 beats.
+Dividing by five moves the mean from 4 beats to 6 beats.

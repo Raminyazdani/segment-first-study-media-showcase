@@ -1,0 +1,42 @@
+{
+  "provider": "mock-pulse",
+  "sample_rate_hz": 8000,
+  "jobs": [
+    {
+      "id": "segment-001",
+      "lines": [
+        1,
+        2
+      ],
+      "text": "A paper strip records five bell intervals of 2, 3, 3, 4 and 8 beats.\nReading the sorted strip puts the middle interval in the third position.",
+      "audio": {
+        "file": "segment-001.wav",
+        "frames": 43200
+      }
+    },
+    {
+      "id": "segment-002",
+      "lines": [
+        3,
+        4
+      ],
+      "text": "The median is 3 beats because two observations sit on either side of that position.\nLengthening only the last interval from 8 to 18 leaves the median at 3.",
+      "audio": {
+        "file": "segment-002.wav",
+        "frames": 46400
+      }
+    },
+    {
+      "id": "segment-003",
+      "lines": [
+        5,
+        6
+      ],
+      "text": "The total, however, rises from 20 beats to 30 beats.\nDividing by five moves the mean from 4 beats to 6 beats.",
+      "audio": {
+        "file": "segment-003.wav",
+        "frames": 35200
+      }
+    }
+  ]
+}
